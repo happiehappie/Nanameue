@@ -29,12 +29,14 @@ PODS:
   - GoogleUtilities/Reachability (7.8.0):
     - GoogleUtilities/Logger
   - GTMSessionFetcher/Core (2.1.0)
+  - IQKeyboardManagerSwift (6.5.10)
   - leveldb-library (1.22.1)
   - PromisesObjC (2.1.1)
 
 DEPENDENCIES:
   - FirebaseAuth
   - FirebaseDatabase
+  - IQKeyboardManagerSwift
 
 SPEC REPOS:
   trunk:
@@ -44,6 +46,7 @@ SPEC REPOS:
     - FirebaseDatabase
     - GoogleUtilities
     - GTMSessionFetcher
+    - IQKeyboardManagerSwift
     - leveldb-library
     - PromisesObjC
 
@@ -54,9 +57,10 @@ SPEC CHECKSUMS:
   FirebaseDatabase: b210f8a811d6eb80dc565d9570e8486af06e331b
   GoogleUtilities: 1d20a6ad97ef46f67bbdec158ce00563a671ebb7
   GTMSessionFetcher: ffbb25ec00ebcb5201adab0a56d808f6f1902d9f
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
   leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
 
-PODFILE CHECKSUM: 75a331f41425d6a268998d9ee48c8ac52d4f2e15
+PODFILE CHECKSUM: 5b6c07bc6ddc8f9ae4ed40b4d83d23359b87c3e4
 
 COCOAPODS: 1.11.3

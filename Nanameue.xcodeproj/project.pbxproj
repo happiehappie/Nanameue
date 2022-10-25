@@ -11,15 +11,14 @@
 		420C867B025343BFD805AA00 /* Pods_Nanameue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544269741611E97BABC0371A /* Pods_Nanameue.framework */; };
 		5178CE0BEE49B22861579810 /* Pods_Nanameue_NanameueUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD8AF9026536DCA2000DF69 /* Pods_Nanameue_NanameueUITests.framework */; };
 		990ED6A529062BB30005F080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990ED6A429062BB30005F080 /* AppDelegate.swift */; };
-		990ED6A729062BB30005F080 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990ED6A629062BB30005F080 /* SceneDelegate.swift */; };
-		990ED6A929062BB30005F080 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990ED6A829062BB30005F080 /* ViewController.swift */; };
-		990ED6AC29062BB30005F080 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990ED6AA29062BB30005F080 /* Main.storyboard */; };
 		990ED6AE29062BB40005F080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990ED6AD29062BB40005F080 /* Assets.xcassets */; };
 		990ED6B129062BB40005F080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990ED6AF29062BB40005F080 /* LaunchScreen.storyboard */; };
 		990ED6BC29062BB40005F080 /* NanameueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990ED6BB29062BB40005F080 /* NanameueTests.swift */; };
 		990ED6C629062BB40005F080 /* NanameueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990ED6C529062BB40005F080 /* NanameueUITests.swift */; };
 		990ED6C829062BB40005F080 /* NanameueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990ED6C729062BB40005F080 /* NanameueUITestsLaunchTests.swift */; };
 		990ED6D529062BEF0005F080 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 990ED6D429062BEF0005F080 /* GoogleService-Info.plist */; };
+		99625D302907B84D00B04075 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99625D2F2907B84D00B04075 /* Main.storyboard */; };
+		99625D322907B87700B04075 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99625D312907B87700B04075 /* AuthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,9 +46,6 @@
 		544269741611E97BABC0371A /* Pods_Nanameue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nanameue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		990ED6A129062BB30005F080 /* Nanameue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nanameue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		990ED6A429062BB30005F080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		990ED6A629062BB30005F080 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		990ED6A829062BB30005F080 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		990ED6AB29062BB30005F080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		990ED6AD29062BB40005F080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		990ED6B029062BB40005F080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		990ED6B229062BB40005F080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +55,8 @@
 		990ED6C529062BB40005F080 /* NanameueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanameueUITests.swift; sourceTree = "<group>"; };
 		990ED6C729062BB40005F080 /* NanameueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanameueUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		990ED6D429062BEF0005F080 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		99625D2F2907B84D00B04075 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		99625D312907B87700B04075 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		A52A3D491736D1DB1C06C337 /* Pods-Nanameue-NanameueUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nanameue-NanameueUITests.release.xcconfig"; path = "Target Support Files/Pods-Nanameue-NanameueUITests/Pods-Nanameue-NanameueUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DC3A951863EC62AE718D1ADC /* Pods-Nanameue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nanameue.debug.xcconfig"; path = "Target Support Files/Pods-Nanameue/Pods-Nanameue.debug.xcconfig"; sourceTree = "<group>"; };
 		E5635953C31C742D53911FF2 /* Pods-NanameueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NanameueTests.release.xcconfig"; path = "Target Support Files/Pods-NanameueTests/Pods-NanameueTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -129,9 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				990ED6A429062BB30005F080 /* AppDelegate.swift */,
-				990ED6A629062BB30005F080 /* SceneDelegate.swift */,
-				990ED6A829062BB30005F080 /* ViewController.swift */,
-				990ED6AA29062BB30005F080 /* Main.storyboard */,
+				99625D312907B87700B04075 /* AuthViewController.swift */,
+				99625D2F2907B84D00B04075 /* Main.storyboard */,
 				990ED6AD29062BB40005F080 /* Assets.xcassets */,
 				990ED6AF29062BB40005F080 /* LaunchScreen.storyboard */,
 				990ED6D429062BEF0005F080 /* GoogleService-Info.plist */,
@@ -167,7 +164,6 @@
 				47141738B9CFC2EF186F3F08 /* Pods-NanameueTests.debug.xcconfig */,
 				E5635953C31C742D53911FF2 /* Pods-NanameueTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -283,7 +279,7 @@
 				990ED6B129062BB40005F080 /* LaunchScreen.storyboard in Resources */,
 				990ED6D529062BEF0005F080 /* GoogleService-Info.plist in Resources */,
 				990ED6AE29062BB40005F080 /* Assets.xcassets in Resources */,
-				990ED6AC29062BB30005F080 /* Main.storyboard in Resources */,
+				99625D302907B84D00B04075 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,9 +407,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				990ED6A929062BB30005F080 /* ViewController.swift in Sources */,
 				990ED6A529062BB30005F080 /* AppDelegate.swift in Sources */,
-				990ED6A729062BB30005F080 /* SceneDelegate.swift in Sources */,
+				99625D322907B87700B04075 /* AuthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,14 +445,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		990ED6AA29062BB30005F080 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				990ED6AB29062BB30005F080 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		990ED6AF29062BB40005F080 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -596,7 +583,7 @@
 				INFOPLIST_FILE = Nanameue/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -625,7 +612,7 @@
 				INFOPLIST_FILE = Nanameue/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -8,6 +8,7 @@ target 'Nanameue' do
   # Pods for Nanameue
   pod 'FirebaseDatabase'
   pod 'FirebaseAuth'
+  pod 'IQKeyboardManagerSwift'
 
   target 'NanameueTests' do
     inherit! :search_paths
