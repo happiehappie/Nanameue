@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16D070751F3FAB5738F779B1 /* Pods_NanameueTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DECF09167A6F67BF11D07E /* Pods_NanameueTests.framework */; };
+		420C867B025343BFD805AA00 /* Pods_Nanameue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544269741611E97BABC0371A /* Pods_Nanameue.framework */; };
+		5178CE0BEE49B22861579810 /* Pods_Nanameue_NanameueUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD8AF9026536DCA2000DF69 /* Pods_Nanameue_NanameueUITests.framework */; };
+		990ED6A529062BB30005F080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990ED6A429062BB30005F080 /* AppDelegate.swift */; };
+		990ED6A729062BB30005F080 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990ED6A629062BB30005F080 /* SceneDelegate.swift */; };
+		990ED6A929062BB30005F080 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990ED6A829062BB30005F080 /* ViewController.swift */; };
+		990ED6AC29062BB30005F080 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990ED6AA29062BB30005F080 /* Main.storyboard */; };
+		990ED6AE29062BB40005F080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990ED6AD29062BB40005F080 /* Assets.xcassets */; };
+		990ED6B129062BB40005F080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990ED6AF29062BB40005F080 /* LaunchScreen.storyboard */; };
+		990ED6BC29062BB40005F080 /* NanameueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990ED6BB29062BB40005F080 /* NanameueTests.swift */; };
+		990ED6C629062BB40005F080 /* NanameueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990ED6C529062BB40005F080 /* NanameueUITests.swift */; };
+		990ED6C829062BB40005F080 /* NanameueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990ED6C729062BB40005F080 /* NanameueUITestsLaunchTests.swift */; };
+		990ED6D529062BEF0005F080 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 990ED6D429062BEF0005F080 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		990ED6B829062BB40005F080 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 990ED69929062BB30005F080 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 990ED6A029062BB30005F080;
+			remoteInfo = Nanameue;
+		};
+		990ED6C229062BB40005F080 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 990ED69929062BB30005F080 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 990ED6A029062BB30005F080;
+			remoteInfo = Nanameue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25DECF09167A6F67BF11D07E /* Pods_NanameueTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NanameueTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD8AF9026536DCA2000DF69 /* Pods_Nanameue_NanameueUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nanameue_NanameueUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		343D3D4DABD6BAD98BCF3A70 /* Pods-Nanameue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nanameue.release.xcconfig"; path = "Target Support Files/Pods-Nanameue/Pods-Nanameue.release.xcconfig"; sourceTree = "<group>"; };
+		47141738B9CFC2EF186F3F08 /* Pods-NanameueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NanameueTests.debug.xcconfig"; path = "Target Support Files/Pods-NanameueTests/Pods-NanameueTests.debug.xcconfig"; sourceTree = "<group>"; };
+		544269741611E97BABC0371A /* Pods_Nanameue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nanameue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		990ED6A129062BB30005F080 /* Nanameue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nanameue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		990ED6A429062BB30005F080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		990ED6A629062BB30005F080 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		990ED6A829062BB30005F080 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		990ED6AB29062BB30005F080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		990ED6AD29062BB40005F080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		990ED6B029062BB40005F080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		990ED6B229062BB40005F080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		990ED6B729062BB40005F080 /* NanameueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanameueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		990ED6BB29062BB40005F080 /* NanameueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanameueTests.swift; sourceTree = "<group>"; };
+		990ED6C129062BB40005F080 /* NanameueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanameueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		990ED6C529062BB40005F080 /* NanameueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanameueUITests.swift; sourceTree = "<group>"; };
+		990ED6C729062BB40005F080 /* NanameueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanameueUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		990ED6D429062BEF0005F080 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A52A3D491736D1DB1C06C337 /* Pods-Nanameue-NanameueUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nanameue-NanameueUITests.release.xcconfig"; path = "Target Support Files/Pods-Nanameue-NanameueUITests/Pods-Nanameue-NanameueUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC3A951863EC62AE718D1ADC /* Pods-Nanameue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nanameue.debug.xcconfig"; path = "Target Support Files/Pods-Nanameue/Pods-Nanameue.debug.xcconfig"; sourceTree = "<group>"; };
+		E5635953C31C742D53911FF2 /* Pods-NanameueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NanameueTests.release.xcconfig"; path = "Target Support Files/Pods-NanameueTests/Pods-NanameueTests.release.xcconfig"; sourceTree = "<group>"; };
+		E72FB99C852D1ACB49E0FD81 /* Pods-Nanameue-NanameueUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nanameue-NanameueUITests.debug.xcconfig"; path = "Target Support Files/Pods-Nanameue-NanameueUITests/Pods-Nanameue-NanameueUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		990ED69E29062BB30005F080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420C867B025343BFD805AA00 /* Pods_Nanameue.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990ED6B429062BB40005F080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D070751F3FAB5738F779B1 /* Pods_NanameueTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990ED6BE29062BB40005F080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5178CE0BEE49B22861579810 /* Pods_Nanameue_NanameueUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CB2DD5EAEAFE28D2D597317 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				544269741611E97BABC0371A /* Pods_Nanameue.framework */,
+				2AD8AF9026536DCA2000DF69 /* Pods_Nanameue_NanameueUITests.framework */,
+				25DECF09167A6F67BF11D07E /* Pods_NanameueTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		990ED69829062BB30005F080 = {
+			isa = PBXGroup;
+			children = (
+				990ED6A329062BB30005F080 /* Nanameue */,
+				990ED6BA29062BB40005F080 /* NanameueTests */,
+				990ED6C429062BB40005F080 /* NanameueUITests */,
+				990ED6A229062BB30005F080 /* Products */,
+				F1B983620811AE4A3FEFF88A /* Pods */,
+				3CB2DD5EAEAFE28D2D597317 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		990ED6A229062BB30005F080 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				990ED6A129062BB30005F080 /* Nanameue.app */,
+				990ED6B729062BB40005F080 /* NanameueTests.xctest */,
+				990ED6C129062BB40005F080 /* NanameueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		990ED6A329062BB30005F080 /* Nanameue */ = {
+			isa = PBXGroup;
+			children = (
+				990ED6A429062BB30005F080 /* AppDelegate.swift */,
+				990ED6A629062BB30005F080 /* SceneDelegate.swift */,
+				990ED6A829062BB30005F080 /* ViewController.swift */,
+				990ED6AA29062BB30005F080 /* Main.storyboard */,
+				990ED6AD29062BB40005F080 /* Assets.xcassets */,
+				990ED6AF29062BB40005F080 /* LaunchScreen.storyboard */,
+				990ED6D429062BEF0005F080 /* GoogleService-Info.plist */,
+				990ED6B229062BB40005F080 /* Info.plist */,
+			);
+			path = Nanameue;
+			sourceTree = "<group>";
+		};
+		990ED6BA29062BB40005F080 /* NanameueTests */ = {
+			isa = PBXGroup;
+			children = (
+				990ED6BB29062BB40005F080 /* NanameueTests.swift */,
+			);
+			path = NanameueTests;
+			sourceTree = "<group>";
+		};
+		990ED6C429062BB40005F080 /* NanameueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				990ED6C529062BB40005F080 /* NanameueUITests.swift */,
+				990ED6C729062BB40005F080 /* NanameueUITestsLaunchTests.swift */,
+			);
+			path = NanameueUITests;
+			sourceTree = "<group>";
+		};
+		F1B983620811AE4A3FEFF88A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC3A951863EC62AE718D1ADC /* Pods-Nanameue.debug.xcconfig */,
+				343D3D4DABD6BAD98BCF3A70 /* Pods-Nanameue.release.xcconfig */,
+				E72FB99C852D1ACB49E0FD81 /* Pods-Nanameue-NanameueUITests.debug.xcconfig */,
+				A52A3D491736D1DB1C06C337 /* Pods-Nanameue-NanameueUITests.release.xcconfig */,
+				47141738B9CFC2EF186F3F08 /* Pods-NanameueTests.debug.xcconfig */,
+				E5635953C31C742D53911FF2 /* Pods-NanameueTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		990ED6A029062BB30005F080 /* Nanameue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 990ED6CB29062BB40005F080 /* Build configuration list for PBXNativeTarget "Nanameue" */;
+			buildPhases = (
+				ABC10FD4C243EAEBFCD45D4C /* [CP] Check Pods Manifest.lock */,
+				990ED69D29062BB30005F080 /* Sources */,
+				990ED69E29062BB30005F080 /* Frameworks */,
+				990ED69F29062BB30005F080 /* Resources */,
+				D4974702248300775A106029 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nanameue;
+			productName = Nanameue;
+			productReference = 990ED6A129062BB30005F080 /* Nanameue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		990ED6B629062BB40005F080 /* NanameueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 990ED6CE29062BB40005F080 /* Build configuration list for PBXNativeTarget "NanameueTests" */;
+			buildPhases = (
+				29F142470B5E08C99339C71B /* [CP] Check Pods Manifest.lock */,
+				990ED6B329062BB40005F080 /* Sources */,
+				990ED6B429062BB40005F080 /* Frameworks */,
+				990ED6B529062BB40005F080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				990ED6B929062BB40005F080 /* PBXTargetDependency */,
+			);
+			name = NanameueTests;
+			productName = NanameueTests;
+			productReference = 990ED6B729062BB40005F080 /* NanameueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		990ED6C029062BB40005F080 /* NanameueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 990ED6D129062BB40005F080 /* Build configuration list for PBXNativeTarget "NanameueUITests" */;
+			buildPhases = (
+				350EE5CE59533C40F2D2C29B /* [CP] Check Pods Manifest.lock */,
+				990ED6BD29062BB40005F080 /* Sources */,
+				990ED6BE29062BB40005F080 /* Frameworks */,
+				990ED6BF29062BB40005F080 /* Resources */,
+				EF6D6A2F4F5753E6C3628A58 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				990ED6C329062BB40005F080 /* PBXTargetDependency */,
+			);
+			name = NanameueUITests;
+			productName = NanameueUITests;
+			productReference = 990ED6C129062BB40005F080 /* NanameueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		990ED69929062BB30005F080 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					990ED6A029062BB30005F080 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					990ED6B629062BB40005F080 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 990ED6A029062BB30005F080;
+					};
+					990ED6C029062BB40005F080 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 990ED6A029062BB30005F080;
+					};
+				};
+			};
+			buildConfigurationList = 990ED69C29062BB30005F080 /* Build configuration list for PBXProject "Nanameue" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 990ED69829062BB30005F080;
+			productRefGroup = 990ED6A229062BB30005F080 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				990ED6A029062BB30005F080 /* Nanameue */,
+				990ED6B629062BB40005F080 /* NanameueTests */,
+				990ED6C029062BB40005F080 /* NanameueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		990ED69F29062BB30005F080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990ED6B129062BB40005F080 /* LaunchScreen.storyboard in Resources */,
+				990ED6D529062BEF0005F080 /* GoogleService-Info.plist in Resources */,
+				990ED6AE29062BB40005F080 /* Assets.xcassets in Resources */,
+				990ED6AC29062BB30005F080 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990ED6B529062BB40005F080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990ED6BF29062BB40005F080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29F142470B5E08C99339C71B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NanameueTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		350EE5CE59533C40F2D2C29B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nanameue-NanameueUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABC10FD4C243EAEBFCD45D4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nanameue-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4974702248300775A106029 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nanameue/Pods-Nanameue-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nanameue/Pods-Nanameue-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nanameue/Pods-Nanameue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF6D6A2F4F5753E6C3628A58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nanameue-NanameueUITests/Pods-Nanameue-NanameueUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nanameue-NanameueUITests/Pods-Nanameue-NanameueUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nanameue-NanameueUITests/Pods-Nanameue-NanameueUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		990ED69D29062BB30005F080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990ED6A929062BB30005F080 /* ViewController.swift in Sources */,
+				990ED6A529062BB30005F080 /* AppDelegate.swift in Sources */,
+				990ED6A729062BB30005F080 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990ED6B329062BB40005F080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990ED6BC29062BB40005F080 /* NanameueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990ED6BD29062BB40005F080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990ED6C829062BB40005F080 /* NanameueUITestsLaunchTests.swift in Sources */,
+				990ED6C629062BB40005F080 /* NanameueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		990ED6B929062BB40005F080 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 990ED6A029062BB30005F080 /* Nanameue */;
+			targetProxy = 990ED6B829062BB40005F080 /* PBXContainerItemProxy */;
+		};
+		990ED6C329062BB40005F080 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 990ED6A029062BB30005F080 /* Nanameue */;
+			targetProxy = 990ED6C229062BB40005F080 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		990ED6AA29062BB30005F080 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				990ED6AB29062BB30005F080 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		990ED6AF29062BB40005F080 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				990ED6B029062BB40005F080 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		990ED6C929062BB40005F080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		990ED6CA29062BB40005F080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		990ED6CC29062BB40005F080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC3A951863EC62AE718D1ADC /* Pods-Nanameue.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5DH47KNGM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nanameue/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jxlim.Nanameue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		990ED6CD29062BB40005F080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 343D3D4DABD6BAD98BCF3A70 /* Pods-Nanameue.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5DH47KNGM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nanameue/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jxlim.Nanameue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		990ED6CF29062BB40005F080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47141738B9CFC2EF186F3F08 /* Pods-NanameueTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5DH47KNGM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jxlim.NanameueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nanameue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nanameue";
+			};
+			name = Debug;
+		};
+		990ED6D029062BB40005F080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5635953C31C742D53911FF2 /* Pods-NanameueTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5DH47KNGM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jxlim.NanameueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nanameue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nanameue";
+			};
+			name = Release;
+		};
+		990ED6D229062BB40005F080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E72FB99C852D1ACB49E0FD81 /* Pods-Nanameue-NanameueUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5DH47KNGM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jxlim.NanameueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nanameue;
+			};
+			name = Debug;
+		};
+		990ED6D329062BB40005F080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A52A3D491736D1DB1C06C337 /* Pods-Nanameue-NanameueUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5DH47KNGM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jxlim.NanameueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nanameue;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		990ED69C29062BB30005F080 /* Build configuration list for PBXProject "Nanameue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990ED6C929062BB40005F080 /* Debug */,
+				990ED6CA29062BB40005F080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		990ED6CB29062BB40005F080 /* Build configuration list for PBXNativeTarget "Nanameue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990ED6CC29062BB40005F080 /* Debug */,
+				990ED6CD29062BB40005F080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		990ED6CE29062BB40005F080 /* Build configuration list for PBXNativeTarget "NanameueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990ED6CF29062BB40005F080 /* Debug */,
+				990ED6D029062BB40005F080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		990ED6D129062BB40005F080 /* Build configuration list for PBXNativeTarget "NanameueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990ED6D229062BB40005F080 /* Debug */,
+				990ED6D329062BB40005F080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 990ED69929062BB30005F080 /* Project object */;
+}
