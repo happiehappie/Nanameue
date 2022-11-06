@@ -41,6 +41,7 @@ class TweetListViewController: UITableViewController {
         // Do any additional setup after loading the view.
         clearsSelectionOnViewWillAppear = true
         tableView.register(UINib(nibName: tweetCellIdentifier, bundle: nil), forCellReuseIdentifier: tweetCellIdentifier)
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "SignOut.Button.Title".localized(), style: .plain, target: self, action: #selector(signOut))
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .compose, target: self, action: #selector(addButtonPressed))
         listenToTweets()
     }
@@ -122,6 +123,28 @@ class TweetListViewController: UITableViewController {
             }
             completion(UIImage(data: imageData))
         }
+    }
+    
+    @objc private func signOut() {
+      let alertController = UIAlertController(
+        title: nil,
+        message: "SignOut.Alert.Message".localized(),
+        preferredStyle: .alert)
+        let cancelAction = UIAlertAction(title: "Alert.Cancel.Button.Title".localized(), style: .cancel)
+      alertController.addAction(cancelAction)
+
+      let signOutAction = UIAlertAction(
+        title: "SignOut.Button.Title".localized(),
+        style: .destructive) { _ in
+        do {
+          try Auth.auth().signOut()
+        } catch {
+          print(error.localizedDescription)
+        }
+      }
+      alertController.addAction(signOutAction)
+
+      present(alertController, animated: true)
     }
     
     @objc private func addButtonPressed() {

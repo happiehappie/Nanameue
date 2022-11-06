@@ -13,6 +13,9 @@
 "Home.Or.Label.Separator" = "or";
 "Home.SignIn.Button.Title" = "Sign In";
 
+"SignOut.Alert.Message" = "Are you sure you want to sign out?";
+"SignOut.Button.Title" = "Sign Out";
+
 "TweetList.NavBar.Title" = "Tweets";
 
 "Alert.OK.Button.Title" = "Okay";
