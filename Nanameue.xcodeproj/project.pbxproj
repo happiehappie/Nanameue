@@ -10,15 +10,24 @@
 		16D070751F3FAB5738F779B1 /* Pods_NanameueTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DECF09167A6F67BF11D07E /* Pods_NanameueTests.framework */; };
 		420C867B025343BFD805AA00 /* Pods_Nanameue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544269741611E97BABC0371A /* Pods_Nanameue.framework */; };
 		5178CE0BEE49B22861579810 /* Pods_Nanameue_NanameueUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD8AF9026536DCA2000DF69 /* Pods_Nanameue_NanameueUITests.framework */; };
+		990AC7A229090C170099D47B /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990AC7A129090C170099D47B /* String+Extensions.swift */; };
+		990AC7A529090C910099D47B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 990AC7A729090C910099D47B /* Localizable.strings */; };
 		990ED6A529062BB30005F080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990ED6A429062BB30005F080 /* AppDelegate.swift */; };
 		990ED6AE29062BB40005F080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990ED6AD29062BB40005F080 /* Assets.xcassets */; };
 		990ED6B129062BB40005F080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990ED6AF29062BB40005F080 /* LaunchScreen.storyboard */; };
-		990ED6BC29062BB40005F080 /* NanameueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990ED6BB29062BB40005F080 /* NanameueTests.swift */; };
-		990ED6C629062BB40005F080 /* NanameueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990ED6C529062BB40005F080 /* NanameueUITests.swift */; };
-		990ED6C829062BB40005F080 /* NanameueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990ED6C729062BB40005F080 /* NanameueUITestsLaunchTests.swift */; };
 		990ED6D529062BEF0005F080 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 990ED6D429062BEF0005F080 /* GoogleService-Info.plist */; };
 		99625D302907B84D00B04075 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99625D2F2907B84D00B04075 /* Main.storyboard */; };
 		99625D322907B87700B04075 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99625D312907B87700B04075 /* AuthViewController.swift */; };
+		99625D362907BC2800B04075 /* TweetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99625D352907BC2800B04075 /* TweetListViewController.swift */; };
+		99625D382907BC4200B04075 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99625D372907BC4200B04075 /* AuthView.swift */; };
+		99C7843C290BAC54009D53C1 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C7843B290BAC54009D53C1 /* AppController.swift */; };
+		99C7843E290BB10B009D53C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C7843D290BB10B009D53C1 /* SceneDelegate.swift */; };
+		99C78443290CF859009D53C1 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C78442290CF859009D53C1 /* ComposeViewController.swift */; };
+		99C78445290CFAB6009D53C1 /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C78444290CFAB6009D53C1 /* ComposeView.swift */; };
+		99C78447290D1AC6009D53C1 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C78446290D1AC6009D53C1 /* Tweet.swift */; };
+		99DFC98C2914ED7700C827D5 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DFC98B2914ED7700C827D5 /* UIImage+Extensions.swift */; };
+		99FCE1622910F52800B26A10 /* TweetCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCE1602910F52800B26A10 /* TweetCellTableViewCell.swift */; };
+		99FCE1632910F52800B26A10 /* TweetCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99FCE1612910F52800B26A10 /* TweetCellTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,19 +53,28 @@
 		343D3D4DABD6BAD98BCF3A70 /* Pods-Nanameue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nanameue.release.xcconfig"; path = "Target Support Files/Pods-Nanameue/Pods-Nanameue.release.xcconfig"; sourceTree = "<group>"; };
 		47141738B9CFC2EF186F3F08 /* Pods-NanameueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NanameueTests.debug.xcconfig"; path = "Target Support Files/Pods-NanameueTests/Pods-NanameueTests.debug.xcconfig"; sourceTree = "<group>"; };
 		544269741611E97BABC0371A /* Pods_Nanameue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nanameue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		990AC7A129090C170099D47B /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		990AC7A629090C910099D47B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		990ED6A129062BB30005F080 /* Nanameue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nanameue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		990ED6A429062BB30005F080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		990ED6AD29062BB40005F080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		990ED6B029062BB40005F080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		990ED6B229062BB40005F080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		990ED6B729062BB40005F080 /* NanameueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanameueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		990ED6BB29062BB40005F080 /* NanameueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanameueTests.swift; sourceTree = "<group>"; };
 		990ED6C129062BB40005F080 /* NanameueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NanameueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		990ED6C529062BB40005F080 /* NanameueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanameueUITests.swift; sourceTree = "<group>"; };
-		990ED6C729062BB40005F080 /* NanameueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanameueUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		990ED6D429062BEF0005F080 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		99625D2F2907B84D00B04075 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		99625D312907B87700B04075 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		99625D352907BC2800B04075 /* TweetListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetListViewController.swift; sourceTree = "<group>"; };
+		99625D372907BC4200B04075 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		99C7843B290BAC54009D53C1 /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		99C7843D290BB10B009D53C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		99C78442290CF859009D53C1 /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		99C78444290CFAB6009D53C1 /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
+		99C78446290D1AC6009D53C1 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		99DFC98B2914ED7700C827D5 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		99FCE1602910F52800B26A10 /* TweetCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCellTableViewCell.swift; sourceTree = "<group>"; };
+		99FCE1612910F52800B26A10 /* TweetCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TweetCellTableViewCell.xib; sourceTree = "<group>"; };
 		A52A3D491736D1DB1C06C337 /* Pods-Nanameue-NanameueUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nanameue-NanameueUITests.release.xcconfig"; path = "Target Support Files/Pods-Nanameue-NanameueUITests/Pods-Nanameue-NanameueUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DC3A951863EC62AE718D1ADC /* Pods-Nanameue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nanameue.debug.xcconfig"; path = "Target Support Files/Pods-Nanameue/Pods-Nanameue.debug.xcconfig"; sourceTree = "<group>"; };
 		E5635953C31C742D53911FF2 /* Pods-NanameueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NanameueTests.release.xcconfig"; path = "Target Support Files/Pods-NanameueTests/Pods-NanameueTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,12 +119,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		990AC7A029090BEB0099D47B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				990AC7A129090C170099D47B /* String+Extensions.swift */,
+				99DFC98B2914ED7700C827D5 /* UIImage+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		990ED69829062BB30005F080 = {
 			isa = PBXGroup;
 			children = (
 				990ED6A329062BB30005F080 /* Nanameue */,
-				990ED6BA29062BB40005F080 /* NanameueTests */,
-				990ED6C429062BB40005F080 /* NanameueUITests */,
 				990ED6A229062BB30005F080 /* Products */,
 				F1B983620811AE4A3FEFF88A /* Pods */,
 				3CB2DD5EAEAFE28D2D597317 /* Frameworks */,
@@ -127,9 +152,15 @@
 			isa = PBXGroup;
 			children = (
 				990ED6A429062BB30005F080 /* AppDelegate.swift */,
-				99625D312907B87700B04075 /* AuthViewController.swift */,
+				99C7843D290BB10B009D53C1 /* SceneDelegate.swift */,
+				99C7843B290BAC54009D53C1 /* AppController.swift */,
+				99C7843F290CE50D009D53C1 /* Compose */,
+				99625D342907BC0F00B04075 /* Tweet */,
+				99625D332907BC0200B04075 /* Auth */,
+				990AC7A029090BEB0099D47B /* Extensions */,
 				99625D2F2907B84D00B04075 /* Main.storyboard */,
 				990ED6AD29062BB40005F080 /* Assets.xcassets */,
+				990AC7A729090C910099D47B /* Localizable.strings */,
 				990ED6AF29062BB40005F080 /* LaunchScreen.storyboard */,
 				990ED6D429062BEF0005F080 /* GoogleService-Info.plist */,
 				990ED6B229062BB40005F080 /* Info.plist */,
@@ -137,21 +168,33 @@
 			path = Nanameue;
 			sourceTree = "<group>";
 		};
-		990ED6BA29062BB40005F080 /* NanameueTests */ = {
+		99625D332907BC0200B04075 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				990ED6BB29062BB40005F080 /* NanameueTests.swift */,
+				99625D312907B87700B04075 /* AuthViewController.swift */,
+				99625D372907BC4200B04075 /* AuthView.swift */,
 			);
-			path = NanameueTests;
+			path = Auth;
 			sourceTree = "<group>";
 		};
-		990ED6C429062BB40005F080 /* NanameueUITests */ = {
+		99625D342907BC0F00B04075 /* Tweet */ = {
 			isa = PBXGroup;
 			children = (
-				990ED6C529062BB40005F080 /* NanameueUITests.swift */,
-				990ED6C729062BB40005F080 /* NanameueUITestsLaunchTests.swift */,
+				99625D352907BC2800B04075 /* TweetListViewController.swift */,
+				99C78446290D1AC6009D53C1 /* Tweet.swift */,
+				99FCE1602910F52800B26A10 /* TweetCellTableViewCell.swift */,
+				99FCE1612910F52800B26A10 /* TweetCellTableViewCell.xib */,
 			);
-			path = NanameueUITests;
+			path = Tweet;
+			sourceTree = "<group>";
+		};
+		99C7843F290CE50D009D53C1 /* Compose */ = {
+			isa = PBXGroup;
+			children = (
+				99C78442290CF859009D53C1 /* ComposeViewController.swift */,
+				99C78444290CFAB6009D53C1 /* ComposeView.swift */,
+			);
+			path = Compose;
 			sourceTree = "<group>";
 		};
 		F1B983620811AE4A3FEFF88A /* Pods */ = {
@@ -243,6 +286,7 @@
 					};
 					990ED6B629062BB40005F080 = {
 						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1410;
 						TestTargetID = 990ED6A029062BB30005F080;
 					};
 					990ED6C029062BB40005F080 = {
@@ -276,6 +320,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				990AC7A529090C910099D47B /* Localizable.strings in Resources */,
+				99FCE1632910F52800B26A10 /* TweetCellTableViewCell.xib in Resources */,
 				990ED6B129062BB40005F080 /* LaunchScreen.storyboard in Resources */,
 				990ED6D529062BEF0005F080 /* GoogleService-Info.plist in Resources */,
 				990ED6AE29062BB40005F080 /* Assets.xcassets in Resources */,
@@ -407,8 +453,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99C78443290CF859009D53C1 /* ComposeViewController.swift in Sources */,
+				99C78447290D1AC6009D53C1 /* Tweet.swift in Sources */,
+				990AC7A229090C170099D47B /* String+Extensions.swift in Sources */,
+				99DFC98C2914ED7700C827D5 /* UIImage+Extensions.swift in Sources */,
 				990ED6A529062BB30005F080 /* AppDelegate.swift in Sources */,
+				99625D362907BC2800B04075 /* TweetListViewController.swift in Sources */,
+				99625D382907BC4200B04075 /* AuthView.swift in Sources */,
+				99FCE1622910F52800B26A10 /* TweetCellTableViewCell.swift in Sources */,
+				99C78445290CFAB6009D53C1 /* ComposeView.swift in Sources */,
 				99625D322907B87700B04075 /* AuthViewController.swift in Sources */,
+				99C7843C290BAC54009D53C1 /* AppController.swift in Sources */,
+				99C7843E290BB10B009D53C1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +472,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				990ED6BC29062BB40005F080 /* NanameueTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,8 +479,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				990ED6C829062BB40005F080 /* NanameueUITestsLaunchTests.swift in Sources */,
-				990ED6C629062BB40005F080 /* NanameueUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +498,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		990AC7A729090C910099D47B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				990AC7A629090C910099D47B /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		990ED6AF29062BB40005F080 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -634,15 +695,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C5DH47KNGM;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jxlim.NanameueTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nanameue.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nanameue";
@@ -655,11 +723,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C5DH47KNGM;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jxlim.NanameueTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

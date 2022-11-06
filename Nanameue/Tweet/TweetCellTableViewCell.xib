@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TweetCellTableViewCell" rowHeight="637" id="KGk-i7-Jjw" customClass="TweetCellTableViewCell" customModule="Nanameue" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="637"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="637"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="150" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="iSr-RM-tWW">
+                        <rect key="frame" x="8" y="8" width="304" height="621"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IW8-OZ-rHc">
+                                <rect key="frame" x="0.0" y="0.0" width="304" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pUm-Bl-UT8">
+                                        <rect key="frame" x="0.0" y="0.0" width="252" height="50"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1OV-YM-SLx">
+                                        <rect key="frame" x="260" y="0.0" width="44" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="44" id="S6x-YA-TxF"/>
+                                            <constraint firstAttribute="height" constant="44" id="bhs-Fk-ia3"/>
+                                        </constraints>
+                                        <buttonConfiguration key="configuration" style="plain" image="ellipsis" catalog="system"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="24l-dS-ddM"/>
+                                    <constraint firstAttribute="trailing" secondItem="1OV-YM-SLx" secondAttribute="trailing" id="8hF-tf-iff"/>
+                                    <constraint firstItem="pUm-Bl-UT8" firstAttribute="top" secondItem="IW8-OZ-rHc" secondAttribute="top" id="axY-fk-IA8"/>
+                                    <constraint firstItem="pUm-Bl-UT8" firstAttribute="leading" secondItem="IW8-OZ-rHc" secondAttribute="leading" id="beL-sb-8Hx"/>
+                                    <constraint firstItem="1OV-YM-SLx" firstAttribute="leading" secondItem="pUm-Bl-UT8" secondAttribute="trailing" constant="8" id="kyc-lN-kbk"/>
+                                    <constraint firstItem="1OV-YM-SLx" firstAttribute="top" secondItem="IW8-OZ-rHc" secondAttribute="top" id="rl7-WP-7Of"/>
+                                    <constraint firstAttribute="bottom" secondItem="pUm-Bl-UT8" secondAttribute="bottom" id="xbK-km-rvX"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5yj-nc-XZd">
+                                <rect key="frame" x="0.0" y="58" width="304" height="251"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FFK-7H-OnT">
+                                <rect key="frame" x="0.0" y="317" width="304" height="304"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="FFK-7H-OnT" secondAttribute="height" id="YW9-Qw-bc7"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="iSr-RM-tWW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="7yJ-Vd-iFB"/>
+                    <constraint firstItem="iSr-RM-tWW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="hDr-uE-9eB"/>
+                    <constraint firstAttribute="bottom" secondItem="iSr-RM-tWW" secondAttribute="bottom" constant="8" id="uWp-iA-1xM"/>
+                    <constraint firstAttribute="trailing" secondItem="iSr-RM-tWW" secondAttribute="trailing" constant="8" id="w1q-N0-l66"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="moreButton" destination="1OV-YM-SLx" id="hWZ-6d-v60"/>
+                <outlet property="tweetImageView" destination="FFK-7H-OnT" id="EZt-Qk-vUW"/>
+                <outlet property="tweetTextLabel" destination="5yj-nc-XZd" id="UTP-Tg-hOQ"/>
+                <outlet property="usernameLabel" destination="pUm-Bl-UT8" id="Qwu-uj-MAf"/>
+            </connections>
+            <point key="canvasLocation" x="155.38461538461539" y="237.08530805687204"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ellipsis" catalog="system" width="128" height="37"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

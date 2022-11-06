@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  Nanameue
+
+  Created by Stanley Lim on 26/10/2022.
+  
+*/
+
+"Home.Title.AppName" = "Nanameue";
+"Home.Email.Placeholder" = "Email Address";
+"Home.Password.Placeholder" = "Password";
+"Home.SignUp.Button.Title" = "Sign Up";
+"Home.Or.Label.Separator" = "or";
+"Home.SignIn.Button.Title" = "Sign In";
+
+"TweetList.NavBar.Title" = "Tweets";
+
+"Alert.OK.Button.Title" = "Okay";
+"Alert.Delete.Button.Title" = "Delete";
+"Alert.Cancel.Button.Title" = "Cancel";
+
+"Error.Message.Empty" = "No error";

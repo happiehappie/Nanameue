@@ -6,8 +6,10 @@ target 'Nanameue' do
   use_frameworks!
 
   # Pods for Nanameue
-  pod 'FirebaseDatabase'
   pod 'FirebaseAuth'
+  pod 'Firebase'
+  pod 'FirebaseFirestore'
+  pod 'FirebaseStorage'
   pod 'IQKeyboardManagerSwift'
 
   target 'NanameueTests' do
